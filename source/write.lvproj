@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="programdata_write.lvtest" Type="TestItem" URL="../programdata_write.lvtest">
+			<Property Name="utf.test.bind" Type="Str">programdata_write.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A97F1012-277B-ADF6-D1BE-06EB9CE94CAB</Property>
+		</Item>
 		<Item Name="programdata_write.vi" Type="VI" URL="../programdata_write.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
