@@ -1,0 +1,5 @@
+*.aliases
+*.vip
+source/write.lvlps
+*.exe
+builds/write/My Application/Application.ini
