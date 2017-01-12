@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-//Leave the above line alone.  It identifies this as a groovy script.
+//Leave the above lines alone.  They identify this as a groovy script and handle necessary immports
 
 //Modify the below parameters to match the values for this particular repo
 
@@ -10,4 +10,4 @@ def repoName = "SE_Test"
 
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
-apply from: 'https://raw.githubusercontent.com/LabVIEW-DCAF/buildsystem/master/scripts/pipeline.groovytoken=${env.GITHUB_TOKEN}'
+dcafPipeline(utfPath,vipbPath,lvVersion,repoName)
