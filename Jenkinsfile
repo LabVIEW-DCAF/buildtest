@@ -8,6 +8,7 @@ def vipbPath = "Build Test.vipb"
 def lvVersion = "14.0"
 def repoName = "SE_Test"
 
+bat 'dir'
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
 dcafPipeline(utfPath,vipbPath,lvVersion,repoName)
