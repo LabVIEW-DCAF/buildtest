@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-12-20 15:22:29" Modified_Date="2017-01-19 11:41:31" Creator="Lee Harding" Comments="" ID="8ac24dce401c2a19c17032b25f565b66">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-12-20 15:22:29" Modified_Date="2017-01-19 13:58:25" Creator="Lee Harding" Comments="" ID="0b5444a5b7c70b688e44bd7a50f480af">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_Build_Test</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -205,7 +205,7 @@
         <Path>source\programdata_write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14214A79576FE5394CFB61DED71D9CDB</GUID>
+      <GUID>4DE06442FAB1C457B91649FCDE995015</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
