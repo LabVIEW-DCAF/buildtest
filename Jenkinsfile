@@ -4,7 +4,7 @@
 //Modify the below parameters to match the values for this particular repo
 
 def utfPath = "source\\write.lvproj"
-def vipbPath = "Build Test.vipb"
+def vipbPath = "Build Test - 2014.vipb"
 def lvVersion = "14.0"
 def repoName = "SE_Test"
 
