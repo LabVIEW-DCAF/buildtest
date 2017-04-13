@@ -10,4 +10,6 @@ def repoName = "SE_Test"
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
 //dcafPipeline(utfPath,vipbPath,lvVersion,repoName)
+node{
 sendEmails()
+}
