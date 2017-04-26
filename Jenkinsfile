@@ -6,7 +6,6 @@
 def utfPath = "source\\write.lvproj"
 def vipbPath = "Build Test - 2014.vipb"
 def lvVersion = "14.0"
-def repoName = "SE_Test"
 
 //Leave the below line alone.  It pulls in the pipeline definition from the DCAF buildsystem repo so we don't duplicate code in every repo 
-dcafPipeline(utfPath,vipbPath,lvVersion,repoName)
+dcafPipeline(utfPath,vipbPath,lvVersion)
