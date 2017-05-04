@@ -3,3 +3,4 @@
 source/write.lvlps
 *.exe
 builds/write/My Application/Application.ini
+*.aliases
